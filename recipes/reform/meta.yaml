@@ -41,5 +41,5 @@ extra:
     - mohammedkhalfan
     - YuWei-CH
     - genericdata
-    run_exports:
-      - {{ pin_subpackage('reform', max_pin='x.x') }}
+  run_exports:
+    - "{{ pin_subpackage('reform', max_pin='x.x') }}"
